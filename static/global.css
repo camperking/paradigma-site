@@ -1,0 +1,42 @@
+:root {
+	--primary: #e5097f;
+	--primary-light: rgb(100% 41.46% 64.54%)
+}
+
+body {
+	margin: 0;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #333;
+	background-color: #e0e0e0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 0.5em 0;
+	font-weight: 600;
+	line-height: 0.9;
+}
+
+h1::first-letter, h2::first-letter {
+	color: var(--primary);
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+@media (max-width: 1650px) {
+	:root {
+		font-size: 10px;
+	}
+}
